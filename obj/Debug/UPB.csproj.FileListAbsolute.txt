@@ -1,0 +1,14 @@
+C:\Users\semuc\source\repos\demo\demo\bin\Debug\UPB.exe.config
+C:\Users\semuc\source\repos\demo\demo\bin\Debug\UPB.exe
+C:\Users\semuc\source\repos\demo\demo\bin\Debug\UPB.pdb
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.csproj.AssemblyReference.cache
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.csproj.SuggestedBindingRedirects.cache
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.Properties.Resources.resources
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.csproj.GenerateResource.cache
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.csproj.CoreCompileInputs.cache
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.exe
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.pdb
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\demo.Login.resources
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.Matricula.resources
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.Registro.resources
+C:\Users\semuc\source\repos\demo\demo\obj\Debug\UPB.ClasesProfesores.resources
