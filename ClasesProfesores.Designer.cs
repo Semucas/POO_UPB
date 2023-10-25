@@ -40,10 +40,10 @@
             // fotoLogo
             // 
             this.fotoLogo.Image = global::UPB.Properties.Resources.upb;
-            this.fotoLogo.Location = new System.Drawing.Point(135, 29);
-            this.fotoLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.fotoLogo.Location = new System.Drawing.Point(180, 36);
+            this.fotoLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fotoLogo.Name = "fotoLogo";
-            this.fotoLogo.Size = new System.Drawing.Size(363, 129);
+            this.fotoLogo.Size = new System.Drawing.Size(484, 159);
             this.fotoLogo.TabIndex = 6;
             this.fotoLogo.TabStop = false;
             // 
@@ -56,9 +56,10 @@
             this.checkedListBox1.Items.AddRange(new object[] {
             "POO 8-10",
             "Lógica 10-12"});
-            this.checkedListBox1.Location = new System.Drawing.Point(251, 245);
+            this.checkedListBox1.Location = new System.Drawing.Point(335, 302);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(127, 38);
+            this.checkedListBox1.Size = new System.Drawing.Size(168, 46);
             this.checkedListBox1.TabIndex = 7;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -66,9 +67,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(246, 180);
+            this.label1.Location = new System.Drawing.Point(328, 222);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 29);
+            this.label1.Size = new System.Drawing.Size(178, 36);
             this.label1.TabIndex = 8;
             this.label1.Text = "Tus Cursos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -76,19 +78,22 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(251, 324);
+            this.button1.Location = new System.Drawing.Point(335, 399);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 23);
+            this.button1.Size = new System.Drawing.Size(188, 28);
             this.button1.TabIndex = 9;
             this.button1.Text = "Ver estudiantes";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(527, 360);
+            this.button2.Location = new System.Drawing.Point(703, 443);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 23);
+            this.button2.Size = new System.Drawing.Size(127, 28);
             this.button2.TabIndex = 10;
             this.button2.Text = "Volver";
             this.button2.UseVisualStyleBackColor = true;
@@ -96,10 +101,10 @@
             // 
             // ClasesProfesores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(634, 411);
+            this.ClientSize = new System.Drawing.Size(845, 506);
             this.ControlBox = false;
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -107,9 +112,10 @@
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.fotoLogo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ClasesProfesores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Cursos Profesores";
             ((System.ComponentModel.ISupportInitialize)(this.fotoLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

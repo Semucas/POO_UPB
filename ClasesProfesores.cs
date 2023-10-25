@@ -36,5 +36,19 @@ namespace UPB
 
             this.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(checkedListBox1.SelectedIndex == 0)
+            {
+                MessageBox.Show("Tus estudiantes para POO son : Muñoz, Perez, Banegas, Messi");
+                
+            }
+            if(checkedListBox1.SelectedIndex == 1) 
+            {
+                MessageBox.Show("Tus estudiantes para Lógica son : Jose, Roni , Alvarez");
+
+            }
+        }
     }
 }

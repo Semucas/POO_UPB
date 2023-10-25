@@ -79,13 +79,14 @@ namespace demo
             
             if(textBox_ID.Text.Trim().Length == 9  && textBox_ID.Text.Trim().All(char.IsDigit))
             {
+
                 botonIngresar.Enabled = true;
                 errorProvider1.SetError(textBox_ID, "");
 
             }
             else
             {
-                if (textBox_ID.Text.Trim().All(char.IsDigit) == false && textBox_ID.Text.Trim().Length > 0)
+                if (textBox_ID.Text.Trim().All(char.IsDigit) == false && textBox_ID.Text.Trim().Length > 0 )
                 {
                     botonIngresar.Enabled = false;
                     errorProvider1.SetError(textBox_ID, "Solo puedes ingresar números");
